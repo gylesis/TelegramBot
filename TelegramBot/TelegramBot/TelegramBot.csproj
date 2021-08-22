@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FirebaseAdmin" Version="2.2.0" />
+      <PackageReference Include="FirebaseAuthentication.net" Version="4.0.0-alpha.2" />
+      <PackageReference Include="FireSharp.Serialization.JsonNet" Version="1.1.0" />
+      <PackageReference Include="OAuthUI" Version="1.0.0-alpha001" />
+      <PackageReference Include="Telegram.Bot" Version="16.0.2" />
+    </ItemGroup>
+
+</Project>
